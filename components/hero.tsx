@@ -43,8 +43,8 @@ export default function Hero() {
       </div>
 
       {/* Right Image Section - exact Anur positioning */}
-      <div className="hidden lg:block absolute right-16 xl:right-64 top-1/2 -translate-y-[60%] z-20" data-parallax data-parallax-speed="180">
-        <div className="relative">
+      <div className="hidden lg:block absolute right-16 xl:right-64 top-1/2 -translate-y-[60%] z-20">
+        <div className="relative" data-parallax data-parallax-speed="180">
           {/* Main Image with bounce animation */}
           <div className="relative">
             <Image
