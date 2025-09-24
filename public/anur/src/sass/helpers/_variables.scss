@@ -1,0 +1,104 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('../../fonts/FuturaPT-Demi.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('../../fonts/FuturaPT-DemiObl.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-DemiObl.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-HeavyObl.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-HeavyObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-LightObl.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-LightObl.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-MediumObl.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-MediumObl.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+// fonts
+$base-font-size: 18;
+$base-font:'Open Sans', sans-serif;
+$heading-font: 'Futura PT';
+$heading-font-sub: 'Futura PT Demi';
+
+
+
+// color
+$dark-gray: #062265;
+$body-color: #6c6c6c;
+$white: #fff;
+$light: #8188a9;
+$black: #000;
+$cyan: #444444;
+
+$theme-primary-color: #ffb100;
+$theme-primary-color-s2: #007a6c;
+$body-bg-color: #fff;
+$section-bg-color: #f4f8fc;
+$text-color: #6e6e6e;
+$text-light-color: #676767;
+$heading-color: $dark-gray;
+$border-color: #e1e1e1;
+$border-color-s2: #d8e0f1;
